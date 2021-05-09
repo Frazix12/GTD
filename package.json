@@ -1,0 +1,28 @@
+{
+  "name": "GTD",
+  "version": "1.0.0",
+  "description": "GTD allows you to send the github feeds at your discord server without having any issue.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frazix12/GTD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frazix12/GTD/issues"
+  },
+  "keywords": [
+   "Github",
+   "github-notifier",
+   "githubfeed",
+   "GTD",
+   "discord-github"
+  ],
+  "author": "Code with Frazix",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
