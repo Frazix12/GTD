@@ -1,7 +1,7 @@
-const Github = require("gitcord")
+const Github = require("gtd.js")
 const Discord = require("discord.js")
 const client = new Discord.Client();
-const github = new Github("CTK-WARRIOR", { repositories: ["GitCord"] })
+const github = new Github("Frazix12", { repositories: ["GitCord"] })
 github.setup()
 
 client.on("ready", () => {
