@@ -19,8 +19,8 @@
 ## Example
 
 ```js
-const Github = require("gitcord")
-const github = new Github("CTK-WARRIOR", {
+const Github = require("GTD")
+const github = new Github("Frazix12", {
 repositories: ["Discord-Bot-For-Starters", "canvas-senpai"]
 })
 github.setup()
@@ -33,8 +33,8 @@ github.on('newEvent', (json) => {
 Basically you have to add the array of repositories name in options or subscribe repository in order to get feeds related to that repository but we have implemented very usefull feauture for you to get rid of these long chain process.
 
 ```js
-const Github = require("gitcord")
-const github = new Github("CTK-WARRIOR", { token: "Your Super Cool Github Token", gitall: true }) //will throw error if user have more than 50 repo
+const Github = require("GTD")
+const github = new Github("Frazix12", { token: "Your Super Cool Github Token", gitall: true }) //will throw error if user have more than 50 repo
 github.setup()
 
 github.on('newEvent', (json) => {
@@ -42,12 +42,12 @@ github.on('newEvent', (json) => {
 })
 ```
 
-## ðŸ±â€ðŸ„1¤7 How to use on Discord ?
+## How to use on Discord ?
 ```js
-const Github = require("gitcord")
+const Github = require("GTD")
 const Discord = require("discord.js")
 const client = new Discord.Client();
-const github = new Github("CTK-WARRIOR", { token: "Your Super Cool Github Token", gitall: true })
+const github = new Github("Frazix12", { token: "Your Super Cool Github Token", gitall: true })
 github.setup()
 
 client.on("ready", () => {
