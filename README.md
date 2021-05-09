@@ -19,7 +19,7 @@
 ## Example
 
 ```js
-const Github = require("GTD")
+const Github = require("gtd.js")
 const github = new Github("Frazix12", {
 repositories: ["Discord-Bot-For-Starters", "canvas-senpai"]
 })
@@ -33,7 +33,7 @@ github.on('newEvent', (json) => {
 Basically you have to add the array of repositories name in options or subscribe repository in order to get feeds related to that repository but we have implemented very usefull feauture for you to get rid of these long chain process.
 
 ```js
-const Github = require("GTD")
+const Github = require("gtd.js")
 const github = new Github("Frazix12", { token: "Your Super Cool Github Token", gitall: true }) //will throw error if user have more than 50 repo
 github.setup()
 
@@ -44,7 +44,7 @@ github.on('newEvent', (json) => {
 
 ## How to use on Discord ?
 ```js
-const Github = require("GTD")
+const Github = require("gtd.js")
 const Discord = require("discord.js")
 const client = new Discord.Client();
 const github = new Github("Frazix12", { token: "Your Super Cool Github Token", gitall: true })
