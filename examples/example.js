@@ -1,5 +1,5 @@
-const Github = require("gitcord")
-const github = new Github("CTK-WARRIOR", {
+const Github = require("gtd.js")
+const github = new Github("Frazix12", {
 repositories: ["Discord-Bot-For-Starters", "canvas-senpai"]
 })
 github.setup()
