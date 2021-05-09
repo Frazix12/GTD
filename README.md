@@ -4,11 +4,11 @@
 
 ## LINKS
 
-- 📃 Guide/Docs: `Soon`
-- 💬 Discord: https://discord.gg/fKSgw4yhb6
-- 🎥 Youtube: https://youtube.com/channel/UCgiRfle1_JSaFV00XcUzfHQ
-- 🙌 Video Tutorial: `Not Out`
-- 🛠 Tools Used: [Axios](https://www.npmjs.com/package/axios)
+- 🔜 Guide/Docs: `Soon`
+- 🌟 Discord: https://discord.gg/fKSgw4yhb6
+- 🔴 Youtube: https://youtube.com/channel/UCgiRfle1_JSaFV00XcUzfHQ
+- 🔵 Video Tutorial: `Not Out`
+- 🔲 Tools Used: [Axios](https://www.npmjs.com/package/axios)
 
 ## Features
 
@@ -42,7 +42,7 @@ github.on('newEvent', (json) => {
 })
 ```
 
-## 🐱‍🏄1�7 How to use on Discord ?
+## ðŸ±â€ðŸ„1¤7 How to use on Discord ?
 ```js
 const Github = require("gitcord")
 const Discord = require("discord.js")
